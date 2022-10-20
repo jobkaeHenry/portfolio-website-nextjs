@@ -2,7 +2,7 @@ import { NextComponentType } from "next";
 import styled from "styled-components";
 import Image from "next/image";
 
-const HeaderWrapper = styled.div`
+const HeaderWrapper = styled.nav`
   width: 100%;
   height: 64px;
   padding: 0 48px;
@@ -12,7 +12,7 @@ const HeaderWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
-const NavWrapper = styled.nav`
+const NavWrapper = styled.ul`
   float: right;
   width: 548px;
   display: flex;
