@@ -1,6 +1,6 @@
 import { NextComponentType } from "next";
 import styled from "styled-components";
-import  Image  from 'next/image';
+import Image  from 'next/image';
 
 const HeaderWrapper = styled.div`
   width: 100%;
@@ -38,7 +38,7 @@ const MenuElem = styled.li`
 `;
 
 
-const Header: NextComponentType = () => {
+const Header = () => {
 
   const menuElem:string[] = ["Home", "About me", "Project", "Contact"]
 
