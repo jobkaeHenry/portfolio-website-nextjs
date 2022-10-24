@@ -34,7 +34,7 @@ const MenuElem = styled.li`
     color: #b41b85;
     background: linear-gradient(#fff 0 0) padding-box,
       linear-gradient(to right, #b41b85, #12abbe) border-box;
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
   }
 `;
 
